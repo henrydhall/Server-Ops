@@ -1,0 +1,33 @@
+ITEM: 
+Name, Description, Due Date, Importance, Related People, id, reminder frequency, 
+
+Adding Items:
+Send email with Name, Description, Due Date, Importance, and optionally related people 
+    Subject: Add Item*
+System looks at inbox, reads unread emails, if the item fits add an item to the db
+    If it doesn't match our stuff reply and say adding item failed
+    If it works reply with item id
+
+Editing item:
+Send email with id and new info
+    Subject: Edit Item*
+
+Completing item:
+Send email with id 
+    Subject: Complete Item
+
+Sending Reminder
+Pull all the items from the db sorted by due date, priority.
+Put in email, send.
+
+How often to send?
+
+Stages:
+db creation
+Adding an item
+Retrieving an item to process to string
+Reading emails to add
+Sending email
+Reading email to complete 
+Reading email to edit
+Running more frequently to make the frequency item relevant
