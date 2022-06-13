@@ -1,5 +1,5 @@
 ITEM: 
-Name, Description, Due Date, Importance, Related People, id, reminder frequency, 
+Name, Description, Due Date, Importance, Related People, id:primary key, reminder frequency, 
 
 Adding Items:
 Send email with Name, Description, Due Date, Importance, and optionally related people 
@@ -23,9 +23,10 @@ Put in email, send.
 How often to send?
 
 Stages:
-db creation
-Adding an item
-Retrieving an item to process to string
+db creation: done
+Adding an item: done
+Getting all items: done
+Process as string: done
 Reading emails to add
 Sending email
 Reading email to complete 
